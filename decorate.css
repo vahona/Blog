@@ -1,0 +1,66 @@
+
+
+/* Body style */
+
+body {
+  font-family: sans-serif;
+  font-size: 80%;
+  margin: 0;
+  flex-direction: column;
+  margin: 0 auto;
+  text-align: normal;
+  box-shadow: 0 0 35px rgba(0, 0, 0, 0.075);
+  background-color: rgba(255, 192, 203, 0.418)
+
+}
+
+
+h1 {
+  color:blue;
+  text-shadow:  rgba(0, 0, 255, 0.507) 1px 0 10px;
+  text-align: center;
+  
+}
+
+a {
+  color: brown;
+  text-align: center;
+
+}
+  
+p:second-of-type {
+  border: 20px solid rebeccapurple;
+  box-shadow: 1px 0 10px pink;
+  font-style: italic;
+}
+
+h3 {
+  border: 10px solid rgb(235, 141, 203);
+  text-align: center;
+
+
+}
+ h3 {
+   color: seagreen;
+   text-align: center;
+
+ }
+
+ article :nth-child(3) {
+   border: 2px solid rgb(213, 159 ,230)
+
+
+ }
+
+ img {
+  border: 3px;
+  background-color: turquoise;
+  border: 10px solid fuchsia;
+  border-image: url("sister.jpg") 30 fill / 30px / 30px space;
+ } 
+
+ footer {
+   background-origin: padding-box;
+   background-color: paleturquoise;
+   text-align: center;
+ }

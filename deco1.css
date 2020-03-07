@@ -1,0 +1,45 @@
+
+
+/* Body style */
+
+body {
+  font-family: cursive;
+  font-size: 80%;
+  margin: 0;
+  flex-direction: column;
+  margin: 0 auto;
+  background-color: rgba(221, 160, 221, 0.589);
+
+}
+
+h1 {
+    background-color: seashell;
+    color: saddlebrown;
+    box-shadow: 10px 5px 5px red;
+    text-align: center;
+
+}
+
+h2 {
+    background-color: teal;
+    color:white;
+    box-shadow: 5px 8px 7px yellow;
+    text-align: center;
+}
+
+ b {
+    background-color:rgb(14, 13, 13);
+    color:white;
+    text-align: center;
+    font-size: 100%;
+
+
+}
+
+
+
+a {
+    background:green;
+    color:ivory;
+    text-align: center;
+}
