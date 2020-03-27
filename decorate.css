@@ -19,12 +19,15 @@ h1 {
   color:blue;
   text-shadow:  rgba(0, 0, 255, 0.507) 1px 0 10px;
   text-align: center;
+  font-size: 50px;
   
 }
 
 a {
-  color: brown;
+  color: rgb(236, 18, 36);
   text-align: center;
+  text-decoration: none;
+  font-size: 30px;
 
 }
   
@@ -43,6 +46,14 @@ h3 {
  h3 {
    color: seagreen;
    text-align: center;
+   font-size: 40px;
+   box-sizing: 10rem;
+   width: 50rem;
+   height: 4rem;
+   margin-left: 15rem;
+   box-shadow: 10px 5px 5px rgb(41, 159, 228);;
+   background-color: cornsilk;
+
 
  }
 
@@ -52,11 +63,17 @@ h3 {
 
  }
 
+
+ ul {
+  list-style-type: none;
+  text-align: center;
+}
+
  img {
   border: 3px;
-  background-color: turquoise;
   border: 10px solid fuchsia;
-  border-image: url("sister.jpg") 30 fill / 30px / 30px space;
+  border-image: url("sister.jpg") 20 fill / space;
+  width: 10rem;
  } 
 
  footer {

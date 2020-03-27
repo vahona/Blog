@@ -17,6 +17,12 @@ h1 {
     color: saddlebrown;
     box-shadow: 10px 5px 5px red;
     text-align: center;
+    box-sizing: 10rem;
+    width: 10rem;
+    height: 5rem;
+    padding-left: 10rem;
+    padding-right: 10rem;
+    margin-left: 20rem;
 
 }
 
@@ -25,6 +31,13 @@ h2 {
     color:white;
     box-shadow: 5px 8px 7px yellow;
     text-align: center;
+    box-sizing: 10rem;
+    width: 10rem;
+    height: 15rem;
+    padding-left: 10rem;
+    padding-right: 10rem;
+    margin-left: 20rem;
+    font-size: 3rem;
 }
 
  b {
@@ -35,11 +48,15 @@ h2 {
 
 
 }
-
-
+nav{
+    text-align: center;
+}
 
 a {
     background:green;
     color:ivory;
     text-align: center;
+    font-size: 1.5rem;
+    text-decoration: none;
+    
 }

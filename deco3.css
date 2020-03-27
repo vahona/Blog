@@ -5,7 +5,6 @@
         font-family: sans-serif;
         font-size: 100%;
         margin: 0;
-        display: flex;
         flex-direction: column;
         min-height: 100vh;
         max-width: 30rem;
@@ -16,12 +15,15 @@
 
 }
 
-a {
-    color: sandybrown;
-    text-align: center;
+ul {
+    color: rgb(5, 52, 83);
+    list-style-type: none;
 
 }
 
+a{
+    text-decoration: none;
+}
 p {
     background-color:oldlace;
     text-decoration-color: orchid;
@@ -31,6 +33,7 @@ p {
 h1 {
     color:blueviolet;
     background-color: wheat;
+    
 
 }
 
@@ -47,17 +50,37 @@ footer > * {
     text-decoration: none;
     transform: scale(1);
     transition: transform .1s ease-out;
+    text-align: center;
 
  }
 
  h2 {
      color: rgb(190, 34, 47);
-     background-color: navajowhite
+     background-color: navajowhite;
+     
+ }
+
+ img {
+   max-width: 40%;
+   height: 10rem;
+   width: 10rem;
+   
+ }
+
+ section {
+   border: 1px solid #ccc;
+   padding: 0.1rem 1rem;
+   margin: 1rem 0;
+ }
+
+ section:target {
+   border-color: blue;
  }
 
 
-
  @media (
-  min-width: 480px) {
+  min-width: 400px) {
   h1 {
-    font-size: 2rem
+    font-size: 2rem;
+  }
+}
