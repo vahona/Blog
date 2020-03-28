@@ -12,16 +12,39 @@ body{
     min-height: 100vh;
     max-width: 50rem;
     margin: 0 auto;
-    text-align: center;
+    background-color: rosybrown;
+    font-size: 1.3rem;
+
+   
+    
 }
 
 h1{
     color: orange;
+    text-align: center;
+    font-size: 3rem;
 
 }
 
 h2{
     color: purple;
+    text-align: center;
+    font-size: 2rem;
 
 }
 
+h3{
+    color: rgb(61, 4, 4);
+    text-align: center;
+    font-size: 1.5;
+}
+
+nav{
+    font-size: 2rem;
+    text-align: center;
+  
+}
+a{
+    text-decoration: none;
+    color: red;
+}
