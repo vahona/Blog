@@ -13,6 +13,7 @@ body {
     margin: 0 auto;
 		background-color: rgba(251, 152, 152, 0.109);
 		background-image: url(sugi.jpg);
+		background-repeat: no-repeat;
     
 }
 
