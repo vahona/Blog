@@ -22,7 +22,11 @@ h1 {
   font-size: 50px;
   
 }
-
+nav ul li{
+  text-align: right;
+  margin-left: 4rem;
+  display: inline;
+}
 a {
   color: rgb(236, 18, 36);
   text-align: center;
@@ -47,12 +51,9 @@ h3 {
    color: seagreen;
    text-align: center;
    font-size: 40px;
-   box-sizing: 10rem;
-   width: 50rem;
-   height: 4rem;
    margin-left: 15rem;
-   box-shadow: 10px 5px 5px rgb(41, 159, 228);;
    background-color: cornsilk;
+   width: 20rem;
 
 
  }
@@ -63,21 +64,28 @@ h3 {
 
  }
 
-
+article{
+  margin-left: 2rem;
+}
  ul {
   list-style-type: none;
   text-align: center;
 }
 
  img {
-  border: 3px;
   border: 10px solid fuchsia;
   border-image: url("sister.jpg") 20 fill / space;
   width: 10rem;
+  float: left;
+  margin-right: 1rem;
+  margin-bottom: 0.5rem;
  } 
 
  footer {
    background-origin: padding-box;
    background-color: paleturquoise;
+   width: 20rem;
+   height: 3rem;
    text-align: center;
+   margin-left: 3rem;
  }

@@ -1,63 +1,30 @@
 @charset "UTF-8";
 
 
-    body {
-        font-family: sans-serif;
-        font-size: 100%;
-        margin: 0;
-        display: flex;
-        flex-direction: column;
-        min-height: 100vh;
-        max-width: 30rem;
-        margin: 0 auto;
-        text-align: center;
-        box-shadow: 0 0 35px rgba(228, 19, 19, 0.993);
-        background-color: rgba(2, 17, 20, 0.582);
-
-}
-
-a {
-    color: rgb(22, 2, 200);
+html{
+    background-color: rgb(199, 245, 107);
     text-align: center;
+}
+main p {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header > h1{
+    text-align: center;
+    color: tomato;
+}
+
+a{
     text-decoration: none;
-
+}
+nav{
+    display: inline;
+    box-sizing: 5rem;
 }
 
-p {
-    background-color:oldlace;
-    text-decoration-color: rgba(218, 112, 214, 0.52);
-   
+footer > a{
+    color: red;
 }
-
-h1 {
-    color:white;
-    background-color: rgba(196, 133, 16, 0.671);
-
-}
-
-main {
-    background-color: skyblue;
-}
-
-footer > * {
-    display: inline-block;
-    padding: .5rem 1rem;
-    color: rgba(128, 0, 11, 0.726);
-    background-color:lightgoldenrodyellow;
-    border-radius: .25rem;
-    font-weight: 700;
-    text-decoration: none;
-    transform: scale(1);
-    transition: transform .1s ease-out;
-
- }
-
- h2 {
-     color: rgb(190, 34, 47);
-     background-color: navajowhite
- }
-
-
 
  @media (
   min-width: 480px) {
