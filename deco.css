@@ -2,11 +2,22 @@
 
 
 html{
-    background-color: rgb(199, 245, 107);
-    text-align: center;
+		text-align: center;
+
+}
+body{
+	border-top: 3rem solid red;
+	border-bottom: wheat solid 3rem;
+	border-left: green solid 3rem;
+	border-right: yellow solid 3rem;
+	width: 50rem;
+	height: 40rem;
+	background-color: black;
+	
 }
 main p {
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	color: white;
 }
 
 header > h1{
@@ -14,17 +25,23 @@ header > h1{
     color: tomato;
 }
 
-a{
-    text-decoration: none;
+a {
+		text-decoration: none;
+		color:rgb(161, 26, 71);
+		
 }
 nav{
     display: inline;
     box-sizing: 5rem;
 }
 
-footer > a{
-    color: red;
+
+
+footer{
+		text-decoration: none;
+		
 }
+
 
  @media (
   min-width: 480px) {
